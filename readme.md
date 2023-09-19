@@ -32,7 +32,11 @@ CREATE TABLE accounts (
 
 ### Run the Tracker
 
-```bash
+
 In the working directory, run the following:
-cd ./back-end && concurrently "npm run server" "npm run client"
+~~cd ./back-end && concurrently "npm run server" "npm run client"~~
+```bash
+In two terminal instances in root:
+npm start
+npm run client
 ```
